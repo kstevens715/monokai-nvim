@@ -11,7 +11,7 @@ vim.cmd([[
   endif
 
   set t_Co=256
-  let g:colors_name = 'monokai_custom'
+  let g:colors_name = 'monokai'
 ]])
 
 local black                = '#000000'
