@@ -39,7 +39,7 @@ local unnamed20 = '#c4be89'
 -- Treesitter Styles
 vim.api.nvim_set_hl(0, 'TSTagDelimiter', { fg = bright_green })
 vim.api.nvim_set_hl(0, 'TSConstant', { fg = comment_grey })
-vim.api.nvim_set_hl(0, 'TSType', { fg = sky_blue })
+vim.api.nvim_set_hl(0, 'TSType', { fg = sky_blue, italic = true })
 vim.api.nvim_set_hl(0, 'TSTag', { fg = bright_pink })
 
 -- Base Styles
