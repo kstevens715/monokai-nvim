@@ -1,7 +1,4 @@
--- My new scheme based on monokai
 -- TODO: Add TS* groups
--- TODO: Move to new color scheme repo?
-
 vim.cmd([[
   set background=dark
   highlight clear
@@ -39,8 +36,11 @@ local unnamed18 = '#8b0807'
 local unnamed19 = '#f92672'
 local unnamed20 = '#c4be89'
 
--- My Additional Treesitter Styles
+-- Treesitter Styles
+vim.api.nvim_set_hl(0, 'TSTagDelimiter', { fg = bright_green })
+vim.api.nvim_set_hl(0, 'TSConstant', { fg = comment_grey })
 vim.api.nvim_set_hl(0, 'TSType', { fg = sky_blue })
+vim.api.nvim_set_hl(0, 'TSTag', { fg = bright_pink })
 
 -- Base Styles
 vim.api.nvim_set_hl(0, 'Boolean', { fg = purple })
