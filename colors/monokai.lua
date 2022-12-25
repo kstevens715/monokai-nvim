@@ -86,6 +86,7 @@ vim.api.nvim_set_hl(0, 'htmlSpecialChar', { fg = purple })
 vim.api.nvim_set_hl(0, 'htmlTag', { fg = bright_green })
 vim.api.nvim_set_hl(0, 'shDerefSimple', { fg = sky_blue, italic = true })
 vim.api.nvim_set_hl(0, 'shQuote', { fg = string_yellow })
+vim.api.nvim_set_hl(0, 'TelescopeMatching', { fg = bright_green })
 
 -- Treesitter Styles
 vim.api.nvim_set_hl(0, '@block_parameters', { fg = unnamed17, italic = true })
