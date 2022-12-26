@@ -88,6 +88,15 @@ vim.api.nvim_set_hl(0, 'shDerefSimple', { fg = sky_blue, italic = true })
 vim.api.nvim_set_hl(0, 'shQuote', { fg = string_yellow })
 vim.api.nvim_set_hl(0, 'TelescopeMatching', { fg = bright_green })
 
+-- WhichKey Styles
+vim.api.nvim_set_hl(0, 'WhichKey', { fg = bright_green })
+vim.api.nvim_set_hl(0, 'WhichKeyGroup', { fg = sky_blue })
+vim.api.nvim_set_hl(0, 'WhichKeySeparator', { fg = bright_pink })
+vim.api.nvim_set_hl(0, 'WhichKeyDesc', { fg = sky_blue })
+vim.api.nvim_set_hl(0, 'WhichKeyFloat', { fg = string_yellow, bg = light_grey })
+vim.api.nvim_set_hl(0, 'WhichKeyBorder', { fg = lighter_grey, bg = light_grey })
+vim.api.nvim_set_hl(0, 'WhichKeyValue', { fg = sky_blue })
+
 -- Treesitter Styles
 vim.api.nvim_set_hl(0, '@block_parameters', { fg = unnamed17, italic = true })
 vim.api.nvim_set_hl(0, '@boolean', { fg = purple })
@@ -103,4 +112,3 @@ vim.api.nvim_set_hl(0, '@tag.attribute', { fg = bright_green })
 vim.api.nvim_set_hl(0, '@tag.delimiter', { fg = lighter_grey })
 vim.api.nvim_set_hl(0, '@type', { fg = sky_blue })
 vim.api.nvim_set_hl(0, '@variable', { fg = light_text })
-
