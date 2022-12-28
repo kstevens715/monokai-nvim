@@ -49,6 +49,7 @@ vim.api.nvim_set_hl(0, 'DiffChange', { fg = alternate_foreground, bg = light_gre
 vim.api.nvim_set_hl(0, 'DiffDelete', { fg = unnamed18 })
 vim.api.nvim_set_hl(0, 'DiffText', { fg = alternate_foreground, bg = unnamed7, bold = true })
 vim.api.nvim_set_hl(0, 'Directory', { fg = purple })
+vim.api.nvim_set_hl(0, 'EndOfBuffer', { fg = unnamed9, bg = unnamed9 })
 vim.api.nvim_set_hl(0, 'ErrorMsg', { bg = bright_pink, fg = light_text })
 vim.api.nvim_set_hl(0, 'Folded', { fg = comment_grey, bg = fold_color })
 vim.api.nvim_set_hl(0, 'IncSearch', { fg = unnamed20, bg = black, reverse = true })
