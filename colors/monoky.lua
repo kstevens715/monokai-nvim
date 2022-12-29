@@ -7,7 +7,7 @@ vim.cmd([[
   endif
 
   set t_Co=256
-  let g:colors_name = 'monokai'
+  let g:colors_name = 'monoky'
 ]])
 
 local palette = {
