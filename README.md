@@ -46,7 +46,7 @@ import:
 ```
 
 ## Palette
-<img width="1011" alt="Screenshot 2022-12-29 at 8 54 27 AM" src="https://user-images.githubusercontent.com/1191305/209963354-1ed4ef1e-ea24-40ba-b799-c6223f49039c.png">
+<img width="1011" alt="Screenshot 2022-12-29 at 6 53 28 PM" src="https://user-images.githubusercontent.com/1191305/210022089-086cdc59-8680-48ff-8246-878926d5832d.png">
 
 ## Contributing
 
