@@ -47,3 +47,10 @@ import:
 
 ## Palette
 <img width="373" alt="Screenshot 2022-12-29 at 8 06 30 AM" src="https://user-images.githubusercontent.com/1191305/209955237-d8a4bcc0-5ab4-4886-87b7-1ae0e8952c37.png">
+
+## Contributing
+
+My goal is to remain true to the original sickill/vim-monokai color palette. This version, however, will only support Neovim since it's now written in Lua.
+I'd like to add support for more plugins, terminals, status lines and continue to improve Treesitter support. It's not currently configurable, but if more 
+people start using it I would be open to making it configurable. If you have any ideas or feature requests, please feel free to open an issue or a pull 
+request.
