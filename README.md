@@ -1,4 +1,4 @@
-# vim-monokai
+# monoky.nvim
 A Monokai color scheme for Neovim. I took the original colors from [sickill/vim-monokai](https://github.com/sickill/vim-monokai) which I used for
 a decade and loved. But after switching from Vim to Neovim with Treesitter, the color scheme no longer looked the same and needed some adjustments. So I took the color
 palette from sickill/vim-monokai and started over with a new Lua-based configuration that now supports Treesitter, WhichKey and Telescope.
